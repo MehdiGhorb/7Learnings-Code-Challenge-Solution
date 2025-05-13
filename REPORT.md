@@ -44,8 +44,8 @@ To address the imbalance, undersampling was applied to the majority class (`Fals
 Outliers in numerical columns were identified using the Interquartile Range (IQR) method. Columns with heavy-tailed distributions (high kurtosis) and skewed distributions were flagged for further analysis.
 
 ### Data Transformation
-1. **Quantile Transformation**: Applied to normalize skewed distributions.
-2. **Box-Cox Transformation**: Used to stabilize variance and make data more normally distributed.
+1. **Quantile Transformation**: Applied to normalize skewed distributions. (Not used since not efficient enough - more explanation is available in the notebook)
+2. **Box-Cox Transformation**: Used to stabilize variance and make data more normally distributed. (Not used since not efficient enough - more explanation is available in the notebook)
 
 ### Downsampling
 For columns with highly frequent values, downsampling was applied to reduce the dominance of these values in the dataset.
