@@ -99,10 +99,7 @@ Due to computational constraints, the improvement in accuracy after hyperparamet
    - Provided comparable results to XGBoost.
    - Simpler to train but slightly less interpretable than XGBoost.
 
-3. **Feature Importance**:
-   - Both models highlighted the importance of specific weather features in predicting snowfall.
-
 ---
 
 ## Conclusion
-The project demonstrated the end-to-end process of data extraction, preprocessing, EDA, and machine learning model training. Both XGBoost and Random Forest classifiers were effective in predicting snowfall, with XGBoost showing slightly better performance. Future work could involve testing additional models, exploring advanced feature engineering techniques, and leveraging more computational resources for hyperparameter tuning.
+Both XGBoost and Random Forest classifiers were effective in predicting snowfall, with XGBoost showing slightly better performance. Future work could involve testing additional models, exploring advanced feature engineering techniques, and leveraging more computational resources for hyperparameter tuning.
