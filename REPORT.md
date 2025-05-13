@@ -67,7 +67,7 @@ The dataset was split into training, evaluation, and test sets:
 ### XGBoost Classifier
 1. **Training**: The XGBoost classifier was trained on the training set with the following steps:
    - Columns with potential data leakage (`rain`, `fog`, `hail`, `thunder`, `tornado`) were excluded.
-   - The `date` and `snow` columns were also excluded from the features.
+   - The `snow` column was also excluded from the features.
 2. **Evaluation**:
    - Predictions were made for the test set.
    - Metrics such as accuracy, precision, recall, and F1-score were calculated.
